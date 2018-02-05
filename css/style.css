@@ -1,0 +1,113 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5em;
+}
+h1,h2,h3,h4{font-weight: 400}
+/* Table of Contents, if wanted
+
+Add to yaml:
+
+output:
+  blogdown::html_page:
+    toc: true
+
+    */
+
+#TableOfContents, #TOC {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+/* Header and Footer */
+.menu li { display: inline-block; }
+.menu a {
+  text-decoration: none;
+  background: #D2D6EF;
+  color: #FFF;
+  padding: 5px;
+  border-radius: 5px;
+}
+.article-meta{
+  text-decoration: none;
+}
+.terms { font-size: .9em; }
+.menu { text-align: center; }
+footer,, .article-meta {text-align: left;}
+.title { font-size: 1.1em; }
+footer a { text-decoration: none; }
+
+.pull-left {float: left;padding-right: 1rem;}
+.pull-right {float: right;padding-left: 1rem;}
+
+a {
+  color: #613DC1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adjust background at your leisure! */
+header,footer {
+    position: relative;
+    width: 100%;
+    height: 1.75rem;
+    font-family: "Lucida Console" , "Liberation Mono";
+    font-size: .875rem;
+    background: #613DC1;
+    border-bottom: 1px solid #000;
+    color: #fff
+}
+
+header ul,footer ul,
+header ol,footer ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+header nav,footer nav {
+    padding: 0 0.5rem
+}
+
+header a,footer a {
+    color: #fff;
+    line-height: 1.75rem;
+}
+header a:hover,
+header .current a {
+    color: #fff
+}
+.current {font-weight: 700;}
+/* Code Boxes */
+pre {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  background: #f8f8f8;
+  padding: 1em;
+  overflow-x: auto;
+}
+code { background: #f9f9f9; }
+pre code { background: none; }
+
+/* Images, tables, misc. */
+img, iframe, video { max-width: 100%; }
+main { hyphens: auto; }
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+tr:nth-child(even) { background: #eee }
+li{}
+ul{margin-left: 0px; padding-left: 20px;}
+.mainer{padding: 0 5px}
