@@ -110,6 +110,7 @@ tr:nth-child(even) { background: #eee }
 li{}
 ul{margin-left: 0px; padding-left: 20px;}
 .mainer{padding: 0 5px}
+.notfound{line-height: 100%}
 ::selection {
     background:#D12F2E; 
     color:#fff;
