@@ -179,7 +179,6 @@ a:hover {
 code,pre {
     margin: 0;
     background-color: #aaa;
-    color: #fff;
     border-radius: 3px;
     font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace
 }
