@@ -61,11 +61,6 @@ function toggleColor(){
     $('textarea').css("color", "black");
     $('#preview').css("background-color", "white");
     $('#preview').css("color", "black");
-    $('pre').css("background-color","rgb(238, 238, 238)");
-    $('pre').css("color","rgb(0, 0, 0)");
-    $('code').css("background-color","rgb(238, 238, 238)");
-    $('code').css("color","rgb(0, 0, 0)");
-
   } else {
     $('body').css("background-color", "black");
     $('body').css("color", "white");
@@ -74,10 +69,6 @@ function toggleColor(){
     $('textarea').css("color", "white");
     $('#preview').css("background-color", "black");
     $('#preview').css("color", "white");
-    $('pre').css("background-color","rgb(51, 51, 51)");
-    $('pre').css("color","rgb(255, 255, 255)");
-    $('code').css("background-color","rgb(51, 51, 51)");
-    $('code').css("color","rgb(255, 255, 255)");
   }
   colorStatus = !colorStatus;
 }
