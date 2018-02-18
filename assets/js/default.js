@@ -85,5 +85,5 @@ function newPost() {
 }
 
 function copyToClipboard() {
-  window.prompt("Copy to clipboard: Ctrl+C, Enter", $('textarea').val());
+  window.prompt("复制到剪贴板: Ctrl+C, Enter", $('textarea').val());
 }
