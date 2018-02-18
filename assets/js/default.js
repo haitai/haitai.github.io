@@ -39,10 +39,16 @@ $(function() {
 });
 
 function toggleInfo() {
-  if(infoStatus == false)
-    $( ".help-wrapper" ).fadeIn( "slow" );
-  else
-    $( ".help-wrapper" ).fadeOut( "slow" );
+  if(infoStatus == false) {
+    var height = $(document.body).height() - 150;
+    $( ".help-wrapper" ).fadeIn( "fast" );
+    $('textarea').css("height", height + "px");
+    $('#preview').css("height", height + "px");
+  } else {
+    $( ".help-wrapper" ).fadeOut( "fast" );
+    $('textarea').css("height", "100%");
+    $('#preview').css("height", "100%");
+  }
   infoStatus = !infoStatus;
 }
 
@@ -51,10 +57,18 @@ function toggleColor(){
     $('body').css("background-color", "white");
     $('body').css("color", "black");
     $('.help-wrapper .hellper').css("background-color", "rgba(0,0,0,0.1)");
-  }else {
+    $('textarea').css("background-color", "white");
+    $('textarea').css("color", "black");
+    $('#preview').css("background-color", "white");
+    $('#preview').css("color", "black");
+  } else {
     $('body').css("background-color", "black");
     $('body').css("color", "white");
     $('.help-wrapper .hellper').css("background-color", "rgba(255,255,255,0.1)");
+    $('textarea').css("background-color", "black");
+    $('textarea').css("color", "white");
+    $('#preview').css("background-color", "black");
+    $('#preview').css("color", "white");
   }
   colorStatus = !colorStatus;
 }

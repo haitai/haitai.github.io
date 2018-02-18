@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Special+Elite|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Special+Elite|Raleway);
 
 body, html {border: 0px; margin: 0px; padding: 0px; 
 height:100%; position:relative; width:100%;background: #000;color: #fff}
@@ -63,13 +63,14 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 25px;
 	font-weight: 300;
 	text-align: left;
 }
 
 .container #preview {
 	width: 47%;
+	height: 100%;
 	float: right;
 	display: inline-block;
 	overflow-y: auto;
@@ -79,7 +80,7 @@ a:hover {
 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 25px;
 	font-weight: 300;
 	text-align: left;
 }
@@ -149,23 +150,4 @@ a:hover {
 	.help-wrapper .hellper {display: none;}
 	.options .fa-info-circle {display: none;}
 	.container #text, .container #preview {float: none;width: 100%;height: 40%;}
-}
-#text::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #fff;
-}
-
-#text::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #fff;
-}
-
-#text::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
 }
