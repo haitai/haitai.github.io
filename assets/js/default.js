@@ -1,15 +1,30 @@
 var colorStatus = false,
     infoStatus = false;
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+    var yyyy = today.getFullYear();
+
+    if(dd<10) {
+        dd = '0'+dd
+    } 
+
+    if(mm<10) {
+        mm = '0'+mm
+    } 
+
+    today = yyyy + '-' + mm + '-' + dd;
     np='---\n\
 title:\n\
 author: admin\n\
 type: post\n\
-date: 2018-02-14\n\
-url: /posts/post-slug/\n\
+date:'
++ ' ' + today + '\n\
+url: /posts/postslug/\n\
 categories:\n\
-  - Uncategorized\n\
+  - uncategorized\n\
 tags:\n\
-  - tag\n\
+  - untagged\n\
 ---\n\
 ';
 
