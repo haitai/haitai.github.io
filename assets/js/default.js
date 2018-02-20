@@ -74,16 +74,20 @@ function toggleColor(){
     $('.help-wrapper .hellper').css("background-color", "rgba(0,0,0,0.1)");
     $('textarea').css("background-color", "white");
     $('textarea').css("color", "black");
-    $('#preview').css("background-color", "white");
-    $('#preview').css("color", "black");
+    $('.md_editor a').css("color", "black");
+    $('#preview').removeClass( "night" ).addClass( "day" );
+    $('pre').removeClass( "night" ).addClass( "day" );
+    $('code').removeClass( "night" ).addClass( "day" );
   } else {
     $('body').css("background-color", "black");
     $('body').css("color", "white");
     $('.help-wrapper .hellper').css("background-color", "rgba(255,255,255,0.1)");
     $('textarea').css("background-color", "black");
     $('textarea').css("color", "white");
-    $('#preview').css("background-color", "black");
-    $('#preview').css("color", "white");
+    $('.md_editor a').css("color", "white");
+    $('#preview').removeClass( "day" ).addClass( "night" );
+    $('pre').removeClass( "day" ).addClass( "night" );
+    $('code').removeClass( "day" ).addClass( "night" );
   }
   colorStatus = !colorStatus;
 }

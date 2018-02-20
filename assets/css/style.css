@@ -178,7 +178,7 @@ a:hover {
 }
 code,pre {
     margin: 0;
-    background-color: #aaa;
+    background-color: #333;
     border-radius: 3px;
     font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace
 }
@@ -206,3 +206,8 @@ blockquote {
     padding: 6px 13px;
     border: 1px solid #dfe2e5;
 }
+#preview.night{background-color: #000;color: #fff}
+#preview.day{background-color: #fff;clear: #000}
+#preview.night pre,#preview.night code{background-color: #333;}
+#preview.day pre,#preview.day code{background-color: #eee}
+.md_editor a{color: #fff}
