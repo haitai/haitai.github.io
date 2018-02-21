@@ -1,4 +1,4 @@
-var colorStatus = false,
+var colorStatus = true,
     infoStatus = false;
 var today = new Date();
 var dd = today.getDate();
@@ -126,7 +126,8 @@ function toggleColor(){
   if(colorStatus == false) {
     $('body').css("background-color", "white");
     $('body').css("color", "black");
-    $('.help-wrapper .hellper').css("background-color", "rgba(0,0,0,0.1)");
+    $('.help-wrapper .hellper').css("background-color", "black");
+    $('.help-wrapper .hellper').css("color", "white");
     $('textarea').css("background-color", "white");
     $('textarea').css("color", "black");
     $('.md_editor a').css("color", "black");
@@ -136,7 +137,8 @@ function toggleColor(){
   } else {
     $('body').css("background-color", "black");
     $('body').css("color", "white");
-    $('.help-wrapper .hellper').css("background-color", "rgba(255,255,255,0.1)");
+    $('.help-wrapper .hellper').css("background-color", "white");
+    $('.help-wrapper .hellper').css("color", "black");
     $('textarea').css("background-color", "black");
     $('textarea').css("color", "white");
     $('.md_editor a').css("color", "white");

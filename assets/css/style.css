@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Special+Elite|Raleway);
 
 body, html {border: 0px; margin: 0px; padding: 0px; 
-height:100%; position:relative; width:100%;background: #000;color: #fff}
+height:100%; position:relative; width:100%;}
 
 a, a:link {
 	text-decoration: none;
@@ -9,19 +9,6 @@ a, a:link {
 }
 
 a:hover {
-	color: #787878;
-}
-
-.options {
-	color: rgb(0,0,0,1);
-	cursor: pointer;
-}
-
-.options i {
-	margin-left: 10px;
-}
-
-.options i:hover {
 	color: #787878;
 }
 
@@ -34,13 +21,13 @@ a:hover {
 }
 
 .container {
-	width: 95%;
+	width: 98%;
 	height: 90%;
 	margin: 10px auto;
 }
 
 .container #text-holder {
-	width: 47%;
+	width: 50%;
 	height: 100%;
 }
 
@@ -59,17 +46,17 @@ a:hover {
     color: inherit;
 	background-color: inherit;
 
-    padding: 22px 5px 0 5px;
+    padding: 5px 5px 0 0;
 	font-family: 'Raleway', sans-serif;
 	
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 25px;
 	font-weight: 300;
 	text-align: left;
 }
 
 .container #preview {
-	width: 47%;
+	width: 48%;
 	height: 100%;
 	float: right;
 	display: inline-block;
@@ -79,7 +66,7 @@ a:hover {
 
 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 25px;
 	font-weight: 300;
 	text-align: left;
@@ -98,7 +85,8 @@ a:hover {
 	position: relative;
 	width: 80%;
 	margin:0 auto;
-	background-color: rgba(0,0,0,0.1);
+	background-color: #000;
+	color: #fff;
 	border-radius: 5px;
 	padding: 3px 5px 3px 5px;
 	font-family: 'Open Sans', sans-serif;
@@ -147,9 +135,10 @@ a:hover {
 }
 
 @media (max-width: 750px) {
-	.help-wrapper .hellper {display: none;}
-	.options .fa-info-circle {display: none;}
-	.container #text, .container #preview {float: none;width: 100%;height: 40%;}
+	.md_editor .fa-info-circle,.help-wrapper .hellper {display: none;}
+	.container #text-holder,.container #preview {float: none;width: 100%;height: 45%;margin-top: 20px}
+	.container #text{width: 100%;padding: 0}
+	.container #text-holder{border-bottom:2px solid #aaa }
 }
 #text::-webkit-scrollbar-track,
 #preview::-webkit-scrollbar-track
@@ -210,4 +199,7 @@ blockquote {
 #preview.day{background-color: #fff;clear: #000}
 #preview.night pre,#preview.night code{background-color: #333;}
 #preview.day pre,#preview.day code{background-color: #eee}
-.md_editor a{color: #fff}
+.md_editor{width: 98%;margin: 5px auto}
+.md_editor a{color: #000}
+.md_editor i{margin-right: 10px;}
+.md_editor i:hover{cursor: pointer;}
