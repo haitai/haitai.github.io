@@ -87,7 +87,7 @@ function file_open(files) {
 $(function() {
   // When using more than one `textarea` on your page, change the following line to match the one you’re after
   var $textarea = $('textarea'),
-      $preview = $('<div id="preview" />').insertAfter('#text-holder'),
+      $preview = $('<div id="preview" />').insertAfter('#nothing'),
       converter = new Markdown.getSanitizingConverter();
       Markdown.Extra.init(converter);
       convert = converter.makeHtml;
@@ -114,11 +114,11 @@ function toggleInfo() {
     var height = $(document.body).height() - 150;
     $( ".help-wrapper" ).fadeIn( "fast" );
     $('textarea').css("height", height + "px");
-    $('#preview').css("height", height + "px");
+    $('#text-preview').css("height", height + "px");
   } else {
     $( ".help-wrapper" ).fadeOut( "fast" );
     $('textarea').css("height", "100%");
-    $('#preview').css("height", "100%");
+    $('#text-preview').css("height", "100%");
   }
   infoStatus = !infoStatus;
 }

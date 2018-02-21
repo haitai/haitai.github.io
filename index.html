@@ -42,7 +42,10 @@
 </div>
 <div class="container">
 	<div id="text-holder" class="left" style="position: relative;">
-		<textarea name="md_text_editor" id="text" placeholder="输入内容……"></textarea>
+		<textarea name="md_text_editor" id="text" placeholder="输入内容……" class="child"></textarea>
+	</div>
+	<div id="text-preview" class="right">
+		<div id="nothing"></div>
 	</div>
 	<div style="clear: both;"></div>
 	<div class="help-wrapper">
@@ -107,5 +110,32 @@
 		</div>
 	</div>
 </div>
+<script>
+const c=document.getElementById('container')
+const l=document.getElementById('text')
+const r=document.querySelector('.right')
+let currentTab = 0
+
+let scale = r.offsetHeight/l.offsetHeight
+console.log(scale)
+l.addEventListener('scroll', ()=>{
+  if (currentTab !== 1) return
+  r.scrollTop = l.scrollTop * scale
+})
+r.addEventListener('scroll', ()=>{
+  if (currentTab !== 2) return
+  l.scrollTop = r.scrollTop / scale
+})
+
+l.addEventListener('mouseover', ()=>{
+  // 1 表示表示当前鼠标位于 .left元素范围内
+  currentTab = 1
+})
+r.addEventListener('mouseover', ()=>{
+  // 2 表示表示当前鼠标位于 .right元素范围内
+    currentTab = 2
+})
+</script>
+
 </body>
 </html>
