@@ -79,6 +79,7 @@ function file_open(files) {
     reader.onload = function() {
       $('#text').val(this.result);
       $('#preview').html(convert(this.result));
+      sessionStorage.setItem("mkdowninfo", this.result);
     }
     reader.readAsText(file);
   }
