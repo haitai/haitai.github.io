@@ -32,6 +32,7 @@ categories:\n\
   - uncategorized\n\
 tags:\n\
   - untagged\n\
+\n\
 ---\n\
 ';
 function saveToFile()
