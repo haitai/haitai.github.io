@@ -41,9 +41,11 @@
 			<a href="#insert_ul"         id="add_unord_list"><i class="fa fa-list"></i></a>
 			<a href="#insert_ol"         id="add_ord_list"><i class="fa fa-list-ol"></i></a>
 			<i onclick="newPost();" class="fa fa-edit" title="新建"></i>
+			<i onclick="file.click();" class="fa fa-folder-open" title="打开"></i>
+			<input id="file" type="file" onchange="file_open(this.files)" style="display: none;">
 			<i onclick="clearPage();" class="fa fa-trash-o" title="清空"></i>
 			<i onclick="copyToClipboard();" class="fa fa-clipboard" title="复制"></i>
-			<i onclick="saveToFile();" class="fa fa-save" title="保存"></i>
+			<i onclick="saveToFile();" class="fa fa-download" title="下载"></i>
 		</div>
 		<textarea name="md_text_editor" id="text" placeholder="输入内容……"></textarea>
 	</div>

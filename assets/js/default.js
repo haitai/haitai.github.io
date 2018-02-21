@@ -71,6 +71,17 @@ function loadFileAsText()
     };
     fileReader.readAsText(fileToLoad, "UTF-8");
 }
+function file_open(files) {
+  if (files.length) {
+    var file = files[0];
+    var reader = new FileReader();
+    reader.onload = function() {
+      $('#text').val(this.result);
+      $('#preview').html(convert(this.result));
+    }
+    reader.readAsText(file);
+  }
+}
 $(function() {
   // When using more than one `textarea` on your page, change the following line to match the one you’re after
   var $textarea = $('textarea'),
@@ -143,9 +154,21 @@ function clearPage() {
 
 function newPost() {
   $('textarea').val(np);
-  sessionStorage.setItem("mkdowninfo", "");
+  $('#preview').html(convert(np));
+  sessionStorage.setItem("mkdowninfo", np);
 }
 
 function copyToClipboard() {
-  window.prompt("复制到剪贴板: Ctrl+C, Enter", $('textarea').val());
+    /* Get the text field */
+  var copyText = document.getElementById("text");
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("Copy");
+
+  /* Alert the copied text */
+  alert("内容已复制："+'\n' + copyText.value);
+  //window.prompt("复制到剪贴板: Ctrl+C, Enter", $('textarea').val());
 }
