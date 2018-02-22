@@ -1,5 +1,6 @@
 var colorStatus = true,
-    infoStatus = false;
+    infoStatus = false,
+    previewStatus = false;
 var today = new Date();
 var dd = today.getDate();
 var mm = today.getMonth()+1; //January is 0!
@@ -112,7 +113,7 @@ $(function() {
 function toggleInfo() {
   if(infoStatus == false) {
     var height = $(document.body).height() - 150;
-    $( ".help-wrapper" ).fadeIn( "fast" );
+    $(".help-wrapper" ).fadeIn( "fast" );
     $('textarea').css("height", height + "px");
     $('#text-preview').css("height", height + "px");
   } else {
@@ -121,6 +122,17 @@ function toggleInfo() {
     $('#text-preview').css("height", "100%");
   }
   infoStatus = !infoStatus;
+}
+
+function togglePreview() {
+  if(previewStatus == false) {
+    $("#text-holder").fadeOut( "fast" );
+    $('#text-preview').fadeIn( "fast" );
+  } else {
+    $("#text-holder").fadeIn( "fast" );
+    $('#text-preview').fadeOut( "fast" );
+  }
+  previewStatus = !previewStatus;
 }
 
 function toggleColor(){

@@ -49,9 +49,10 @@ a:hover {
 	line-height: 25px;
 	font-weight: 300;
 	text-align: left;
+	word-wrap: break-word;
 }
 .container #text-preview{
-		width: 48%;
+	width: 48%;
 	height: 100%;
 	float: right;
 	display: inline-block;
@@ -131,10 +132,10 @@ a:hover {
 }
 
 @media (max-width: 750px) {
-	.md_editor .fa-info-circle,.help-wrapper .hellper {display: none;}
-	.container #text-holder,.container #text-preview {float: none;width: 100%;height: 48%;margin-top: 20px}
-	.container #text{width: 100%;padding: 0}
-	.container #text-holder{border-bottom:2px solid #aaa }
+	.md_editor .fa-info-circle,.help-wrapper .hellper,.container #text-preview {display: none;}
+	.md_editor .fa-eye{display: inline-block;}
+	.container #text-holder,.container #text-preview{float: none;width: 100%;height: 96%;margin-top: 10px}
+	.container #text{width: 100%;padding: 0;overflow-x:hidden;}
 }
 #text::-webkit-scrollbar-track,
 #text-preview::-webkit-scrollbar-track
@@ -193,8 +194,9 @@ blockquote {
 #preview.day{background-color: #fff;clear: #000}
 #preview.night pre,#preview.night code{background-color: #333;}
 #preview.day pre,#preview.day code{background-color: #eee}
-.md_editor{width: 98%;margin: 5px auto}
+.md_editor{width: 98%;margin: 5px auto;line-height: 30px}
 .md_editor a{color: #000}
 .md_editor i{margin-right: 10px;}
 .md_editor i:hover{cursor: pointer;}
 .fa-edit{margin-left: 20px}
+i.fa-eye{display: none;}
