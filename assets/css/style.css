@@ -2,7 +2,7 @@
 
 body, html {border: 0px; margin: 0px; padding: 0px; 
 height:100%; position:relative; width:100%;}
-
+body{overflow-y:hidden}
 a, a:link {
 	text-decoration: none;
 	color: #f00;
@@ -198,5 +198,4 @@ blockquote {
 .md_editor a{color: #000}
 .md_editor i{margin-right: 10px;}
 .md_editor i:hover{cursor: pointer;}
-.fa-edit{margin-left: 20px}
 i.fa-eye{display: none;}
