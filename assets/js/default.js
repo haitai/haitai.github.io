@@ -176,3 +176,69 @@ function copyToClipboard() {
   alert("内容已复制："+'\n' + copyText.value);
   //window.prompt("复制到剪贴板: Ctrl+C, Enter", $('textarea').val());
 }
+
+$(function() {
+  var stack = new Undo.Stack(),
+    EditCommand = Undo.Command.extend({
+      constructor: function(textarea, oldValue, newValue) {
+        this.textarea = textarea;
+        this.oldValue = oldValue;
+        this.newValue = newValue;
+      },
+      execute: function() {
+      },
+      undo: function() {
+        this.textarea.val(this.oldValue);
+      },
+      
+      redo: function() {
+        this.textarea.val(this.newValue);
+      }
+    });
+  stack.changed = function() {
+    stackUI();
+  };
+  
+  var undo = $(".undo"),
+      redo = $(".redo");
+  function stackUI() {
+    undo.attr("disabled", !stack.canUndo());
+    redo.attr("disabled", !stack.canRedo());
+  }
+  stackUI();
+  
+  $(document.body).delegate(".undo, .redo", "click", function() {
+    var what = $(this).attr("class");
+    stack[what]();
+    return false;
+  });
+  
+  var text = $("#text"),
+    startValue = text.val(),
+    timer;
+  $("#text").bind("keyup", function() {
+    // a way too simple algorithm in place of single-character undo
+    clearTimeout(timer);
+    timer = setTimeout(function() {
+      var newValue = text.val();
+      // ignore meta key presses
+      if (newValue != startValue) {
+        // this could try and make a diff instead of storing snapshots
+        stack.execute(new EditCommand(text, startValue, newValue));
+        startValue = newValue;
+      }
+    }, 250);
+  });
+  
+  $(document).keydown(function(event) {
+    if (!event.metaKey || event.keyCode != 90) {
+      return;
+    }
+    event.preventDefault();
+    if (event.shiftKey) {
+      stack.canRedo() && stack.redo()
+    } else {
+      stack.canUndo() && stack.undo();
+    }
+  });
+});
