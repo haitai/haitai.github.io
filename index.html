@@ -9,16 +9,19 @@
 	<link rel="shortcut icon" href="favicon.ico"/>
 	<!-- script -->
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/prettify-day.css" title="prettify-day" type="text/css" rel="stylesheet" />
+	<link href="assets/css/prettify-night.css" title="prettify-night" type="text/css" rel="stylesheet" />
 	<link href="assets/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
 	<script src="lib/jquery-1.11.1.min.js"></script>
 	<script src="lib/undo.js"></script>
 	<script src="lib/markdown/Markdown.Converter.js"></script>
 	<script src="lib/markdown/Markdown.Sanitizer.js"></script>
+	<script src="lib/prettify/prettify.js"></script>
 	<script src="lib/markdown/Markdown.Extra.js"></script>
 	<script src="lib/editor.js"></script>
 	<script src="assets/js/default.js"></script>
 </head>
-<body>
+<body onload="PR.prettyPrint()">
 <div class="md_editor">
 	<a href="#insert_h" id="add_h" title="标题"><i class="fa fa-heading"></i></a>
 	<a href="#insert_em"  title="斜体" id="add_em"><i class="fa fa-italic"></i></a>
