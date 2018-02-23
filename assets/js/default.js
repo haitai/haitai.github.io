@@ -90,7 +90,10 @@ $(function() {
   var $textarea = $('textarea'),
       $preview = $('<div id="preview" />').insertAfter('#nothing'),
       converter = new Markdown.getSanitizingConverter();
-      Markdown.Extra.init(converter);
+      Markdown.Extra.init(converter, {
+        extensions: "all",
+        highlighter: "prettify"
+      });
       convert = converter.makeHtml;
 
       var text = sessionStorage.getItem("mkdowninfo");
@@ -102,9 +105,11 @@ $(function() {
   	if(text == null){
     	$preview.html(convert($textarea.val()));
     	sessionStorage.setItem("mkdowninfo", $textarea.val());
+      PR.prettyPrint();
     }else{
     	$textarea.val(text);
     	$preview.html(convert(text));
+      PR.prettyPrint();
     	text = null;
     }
   }).trigger('keyup');
