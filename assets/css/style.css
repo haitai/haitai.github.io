@@ -16,7 +16,7 @@ a:hover {
 	float: left;
 }
 
-.right{
+.right,.github{
 	float: right;
 }
 #nothing{display: none;}
@@ -132,7 +132,7 @@ a:hover {
 }
 
 @media (max-width: 750px) {
-	.md_editor .fa-info-circle,.help-wrapper .hellper,.container #text-preview {display: none;}
+	.md_editor .fa-info-circle,.md_editor .github,.help-wrapper .hellper,.container #text-preview {display: none;}
 	.md_editor .fa-eye{display: inline-block;}
 	.container #text-holder,.container #text-preview{float: none;width: 100%;height: 96%;margin-top: 10px}
 	.container #text{width: 100%;padding: 0;overflow-x:hidden;}
