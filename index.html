@@ -11,7 +11,7 @@
 	<link href="assets/css/prettify-day.css" title="prettify-day" type="text/css" rel="stylesheet" />
 	<link href="assets/css/prettify-night.css" title="prettify-night" type="text/css" rel="stylesheet" />
 	<link href="assets/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
-		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
 
 	<script src="lib/jquery-1.11.1.min.js"></script>
 	<script src="lib/undo.js"></script>
@@ -146,6 +146,10 @@ r.addEventListener('mouseover', ()=>{
   // 2 表示表示当前鼠标位于 .right元素范围内
     currentTab = 2
 })
+</script>
+<script type="module">
+import mermaid from '/lib/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
 </script>
 </body>
 </html>
