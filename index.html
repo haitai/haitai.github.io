@@ -20,7 +20,6 @@
 	<script src="lib/prettify/prettify.js"></script>
 	<script src="lib/markdown/Markdown.Extra.js"></script>
 	<script src="lib/editor.js"></script>
-	<script src="lib/MathJax.js"></script>
 	<script src="assets/js/default.js"></script>
 </head>
 <body onload="PR.prettyPrint()">
@@ -148,8 +147,24 @@ r.addEventListener('mouseover', ()=>{
 })
 </script>
 <script type="module">
-import mermaid from '/lib/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true},
+      jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+      TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+      equationNumbers: {
+      autoNumber: "AMS"
+      }
+    }
+  });
 </script>
 </body>
 </html>
