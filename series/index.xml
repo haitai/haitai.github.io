@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>系列 on D5</title>
-    <link>https://d5.us.ci/series/</link>
+    <link>https://haitai.github.io/series/</link>
     <description>Recent content in 系列 on D5</description>
     <image>
       <title>D5</title>
-      <url>https://d5.us.ci/images/papermod-cover.png</url>
-      <link>https://d5.us.ci/images/papermod-cover.png</link>
+      <url>https://haitai.github.io/images/papermod-cover.png</url>
+      <link>https://haitai.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh</language>
-    <atom:link href="https://d5.us.ci/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://haitai.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
