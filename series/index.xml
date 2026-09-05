@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>系列 on Haitai Hub</title>
-    <link>https://haitai.github.io/series/</link>
+    <link>https://b.huhaitai.com/series/</link>
     <description>Recent content in 系列 on Haitai Hub</description>
     <image>
       <title>Haitai Hub</title>
-      <url>https://haitai.github.io/images/papermod-cover.png</url>
-      <link>https://haitai.github.io/images/papermod-cover.png</link>
+      <url>https://b.huhaitai.com/images/papermod-cover.png</url>
+      <link>https://b.huhaitai.com/images/papermod-cover.png</link>
     </image>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="https://haitai.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://b.huhaitai.com/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
