@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://haitai.github.io/sitemap.xml
+Disallow: /

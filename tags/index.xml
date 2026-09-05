@@ -1,44 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>标签 on D5</title>
+    <title>标签 on Haitai Hub</title>
     <link>https://haitai.github.io/tags/</link>
-    <description>Recent content in 标签 on D5</description>
+    <description>Recent content in 标签 on Haitai Hub</description>
     <image>
-      <title>D5</title>
+      <title>Haitai Hub</title>
       <url>https://haitai.github.io/images/papermod-cover.png</url>
       <link>https://haitai.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 01 Jun 2013 14:05:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 14:26:48 +0800</lastBuildDate>
     <atom:link href="https://haitai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Story</title>
-      <link>https://haitai.github.io/tags/story/</link>
-      <pubDate>Sat, 01 Jun 2013 14:05:11 +0000</pubDate>
-      <guid>https://haitai.github.io/tags/story/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fake</title>
-      <link>https://haitai.github.io/tags/fake/</link>
-      <pubDate>Wed, 11 Jul 2012 02:21:27 +0000</pubDate>
-      <guid>https://haitai.github.io/tags/fake/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Segment</title>
-      <link>https://haitai.github.io/tags/segment/</link>
-      <pubDate>Wed, 13 May 2009 18:36:00 +0000</pubDate>
-      <guid>https://haitai.github.io/tags/segment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>未分类</title>
-      <link>https://haitai.github.io/tags/%E6%9C%AA%E5%88%86%E7%B1%BB/</link>
-      <pubDate>Tue, 14 Nov 2006 04:47:00 +0000</pubDate>
-      <guid>https://haitai.github.io/tags/%E6%9C%AA%E5%88%86%E7%B1%BB/</guid>
+      <title>Test</title>
+      <link>https://haitai.github.io/tags/test/</link>
+      <pubDate>Sat, 05 Sep 2026 14:26:48 +0800</pubDate>
+      <guid>https://haitai.github.io/tags/test/</guid>
       <description></description>
     </item>
   </channel>
