@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>微博 on Haitai Hub</title>
+    <link>https://b.huhaitai.com/statuses/</link>
+    <description>Recent content in 微博 on Haitai Hub</description>
+    <image>
+      <title>Haitai Hub</title>
+      <url>https://b.huhaitai.com/images/papermod-cover.png</url>
+      <link>https://b.huhaitai.com/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 05 Sep 2026 21:00:00 +0800</lastBuildDate>
+    <atom:link href="https://b.huhaitai.com/statuses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://b.huhaitai.com/statuses/2026-09-05-210000/</link>
+      <pubDate>Sat, 05 Sep 2026 21:00:00 +0800</pubDate>
+      <guid>https://b.huhaitai.com/statuses/2026-09-05-210000/</guid>
+      <description>&lt;p&gt;这是第一条测试微博，用来验证 status 类型的渲染效果。没有标题，只有正文内容。&lt;/p&gt;
+&lt;p&gt;支持 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，比如加粗、列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;项目一&lt;/li&gt;
+&lt;li&gt;项目二&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

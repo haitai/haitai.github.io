@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://b.huhaitai.com/</loc>
-    <lastmod>2026-09-05T14:26:48+08:00</lastmod>
+    <loc>https://b.huhaitai.com/statuses/2026-09-05-210000/</loc>
+    <lastmod>2026-09-05T21:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://b.huhaitai.com/posts/hello-world/</loc>
-    <lastmod>2026-09-05T14:26:48+08:00</lastmod>
+    <loc>https://b.huhaitai.com/</loc>
+    <lastmod>2026-09-05T21:00:00+08:00</lastmod>
   </url><url>
     <loc>https://b.huhaitai.com/tags/test/</loc>
-    <lastmod>2026-09-05T14:26:48+08:00</lastmod>
+    <lastmod>2026-09-05T21:00:00+08:00</lastmod>
   </url><url>
     <loc>https://b.huhaitai.com/tags/</loc>
+    <lastmod>2026-09-05T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://b.huhaitai.com/statuses/</loc>
+    <lastmod>2026-09-05T21:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://b.huhaitai.com/posts/hello-world/</loc>
     <lastmod>2026-09-05T14:26:48+08:00</lastmod>
   </url><url>
     <loc>https://b.huhaitai.com/categories/%E6%B5%8B%E8%AF%95/</loc>
