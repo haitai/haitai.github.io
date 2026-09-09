@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Test on Haitai Hub</title>
@@ -11,17 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 09 Sep 2026 11:26:35 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 12:12:02 +0800</lastBuildDate>
     <atom:link href="https://b.huhaitai.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>
+          
+            这是第一条测试微博，用来验证 status 类型的...
+            
+      </title>
       <link>https://b.huhaitai.com/statuses/2026-09-05-210000/</link>
       <pubDate>Sat, 05 Sep 2026 21:00:00 +0800</pubDate>
       <guid>https://b.huhaitai.com/statuses/2026-09-05-210000/</guid>
       <description>&lt;p&gt;这是第一条测试微博，用来验证 status 类型的渲染效果。没有标题，只有正文内容。支持 &lt;strong&gt;Markdown&lt;/strong&gt; 语法。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hello World</title>
+      <title>Hello World
+      </title>
       <link>https://b.huhaitai.com/posts/hello-world/</link>
       <pubDate>Sat, 05 Sep 2026 14:26:48 +0800</pubDate>
       <guid>https://b.huhaitai.com/posts/hello-world/</guid>
