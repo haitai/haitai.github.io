@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://b.huhaitai.com/sitemap.xml
+Disallow: /
