@@ -18,10 +18,12 @@
             这是第一条测试微博，用来验证 status 类型的...
             
       </title>
-      <link>https://b.huhaitai.com/statuses/2026-09-05-210000/</link>
-      <pubDate>Sat, 05 Sep 2026 21:00:00 +0800</pubDate>
-      <guid>https://b.huhaitai.com/statuses/2026-09-05-210000/</guid>
-      <description>&lt;p&gt;这是第一条测试微博，用来验证 status 类型的渲染效果。没有标题，只有正文内容。支持 &lt;strong&gt;Markdown&lt;/strong&gt; 语法。&lt;/p&gt;</description>
+      <link>https://b.huhaitai.com/statuses/2026-09-11-174539/</link>
+      <pubDate>Fri, 11 Sep 2026 17:45:40 +0800</pubDate>
+      <guid>https://b.huhaitai.com/statuses/2026-09-11-174539/</guid>
+      <description>&lt;p&gt;这是第一条测试微博，用来验证 status 类型的渲染效果。没有标题，只有正文内容。支持 &lt;strong&gt;Markdown&lt;/strong&gt; 语法。
+
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
