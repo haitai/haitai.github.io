@@ -15,15 +15,15 @@
     <item>
       <title>
           
-            
-                测试Pocket Hugo客户端发布。
-
+            测试Pocket Hugo客户端发布。
+结果：很强...
             
       </title>
-      <link>https://b.huhaitai.com/statuses/234107/</link>
-      <pubDate>Sat, 12 Sep 2026 15:41:10 +0800</pubDate>
-      <guid>https://b.huhaitai.com/statuses/234107/</guid>
-      <description>&lt;p&gt;测试Pocket Hugo客户端发布。&lt;/p&gt;</description>
+      <link>https://b.huhaitai.com/statuses/2026-09-12-234107/</link>
+      <pubDate>Sat, 12 Sep 2026 23:41:10 +0800</pubDate>
+      <guid>https://b.huhaitai.com/statuses/2026-09-12-234107/</guid>
+      <description>&lt;p&gt;测试Pocket Hugo客户端发布。&lt;/p&gt;
+&lt;p&gt;结果：很强但强差人意。没有做时区选择，导致发布的时间和基于服务器时间生成的文档时间有差距；可以自定义slug，但和本站的slug相比，省掉了日期前缀；没有文档type，导致不能生成正确样式；输入了tag，结果文章中tag部分还是空白。&lt;/p&gt;</description>
     </item>
     <item>
       <title>
