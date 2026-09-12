@@ -11,8 +11,55 @@
     </image>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 12 Sep 2026 10:22:53 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 13:36:31 +0800</lastBuildDate>
     <atom:link href="https://b.huhaitai.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试内链卡片
+      </title>
+      <link>https://b.huhaitai.com/posts/test-shortcode-link/</link>
+      <pubDate>Sat, 12 Sep 2026 11:10:29 +0800</pubDate>
+      <guid>https://b.huhaitai.com/posts/test-shortcode-link/</guid>
+      <description>&lt;p&gt;测试内链卡片显示。使用以下代码引入内链卡片：&lt;/p&gt;
+
+&lt;div class=&#34;x-highlight-wrapper&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{ {&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;inlink&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#34;/&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;posts&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;hello-world&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;} } &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 使用时删除花括号中的空格 --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;测试文章显示： 
+
+&lt;div class=&#34;post-preview&#34;&gt;
+  &lt;a target=&#34;_blank&#34; href=&#34;https://b.huhaitai.com/posts/hello-world/&#34; class=&#34;post-preview-a&#34;&gt;
+    &lt;div class=&#34;post-preview-meta&#34;&gt;
+      &lt;div class=&#34;post-preview-middle&#34;&gt;
+        &lt;span class=&#34;post-meta-img&#34;&gt;&lt;img src=&#34;https://b.huhaitai.com/favicon.png&#34; class=&#34;&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;post-meta-title&#34;&gt;Hello World&lt;/span&gt;
+        &lt;span class=&#34;post-meta-date&#34;&gt; · 2026年9月5日&lt;/span&gt;
+        &lt;section style=&#34;max-height:105px;overflow:hidden;&#34; class=&#34;post-preview--excerpt&#34;&gt;
+          This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+
+测试微博显示：  
+
+&lt;div class=&#34;post-preview&#34;&gt;
+  &lt;a target=&#34;_blank&#34; href=&#34;https://b.huhaitai.com/statuses/2026-09-11-174539/&#34; class=&#34;post-preview-a&#34;&gt;
+    &lt;div class=&#34;post-preview-meta&#34;&gt;
+      &lt;div class=&#34;post-preview-middle&#34;&gt;&lt;span class=&#34;post-meta-img&#34;&gt;&lt;img src=&#34;https://b.huhaitai.com/avatar.png&#34; class=&#34;&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;post-meta-title&#34;&gt;Haitai&lt;/span&gt;
+        &lt;span class=&#34;post-meta-date&#34;&gt; · 2026年9月11日 17:45&lt;/span&gt;
+        &lt;section style=&#34;max-height:105px;overflow:hidden;&#34; class=&#34;post-preview--excerpt&#34;&gt;
+          这是第一条测试微博，用来验证 status 类型的渲染效果。没有标题，只有正文内容。支持 Markdown 语法。 
+        &lt;/section&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;</description>
+    </item>
     <item>
       <title>
           
