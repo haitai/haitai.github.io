@@ -32,7 +32,7 @@
         &lt;span class=&#34;post-meta-title&#34;&gt;Hello World&lt;/span&gt;
         &lt;span class=&#34;post-meta-date&#34;&gt; · 2026年9月5日&lt;/span&gt;
         &lt;section style=&#34;max-height:105px;overflow:hidden;&#34; class=&#34;post-preview--excerpt&#34;&gt;
-          This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+          这是一篇包含本主题支持的各种基本 Markdown 语法的文章。
 
         &lt;/section&gt;
       &lt;/div&gt;
@@ -75,7 +75,7 @@
       <link>https://b.huhaitai.com/posts/hello-world/</link>
       <pubDate>Sat, 05 Sep 2026 14:26:48 +0800</pubDate>
       <guid>https://b.huhaitai.com/posts/hello-world/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>&lt;p&gt;这是一篇包含本主题支持的各种基本 Markdown 语法的文章。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
