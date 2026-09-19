@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/pretty-feed-v3.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">  
   <channel>
+    <script xmlns="http://www.w3.org/1999/xhtml" src="/pretty-feed-v3.js" defer=""></script>
     <title>系列 on Haitai Hub</title>
     <link>https://b.huhaitai.com/series/</link>
     <description>Recent content in 系列 on Haitai Hub</description>
