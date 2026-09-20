@@ -33,7 +33,7 @@
         &lt;span class=&#34;post-meta-title&#34;&gt;Hello World&lt;/span&gt;
         &lt;span class=&#34;post-meta-date&#34;&gt; · 2026年9月5日&lt;/span&gt;
         &lt;section style=&#34;max-height:105px;overflow:hidden;&#34; class=&#34;post-preview--excerpt&#34;&gt;
-          一级标题 二级标题 三级标题 四级标题 五级标题 六级标题
+          一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 这一行有个more标记，不可见。
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;

@@ -12,7 +12,7 @@
     </image>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 20 Sep 2026 16:34:26 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 18:04:14 +0800</lastBuildDate>
     <atom:link href="https://b.huhaitai.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>测试内链卡片
@@ -34,7 +34,7 @@
         &lt;span class=&#34;post-meta-title&#34;&gt;Hello World&lt;/span&gt;
         &lt;span class=&#34;post-meta-date&#34;&gt; · 2026年9月5日&lt;/span&gt;
         &lt;section style=&#34;max-height:105px;overflow:hidden;&#34; class=&#34;post-preview--excerpt&#34;&gt;
-          一级标题 二级标题 三级标题 四级标题 五级标题 六级标题
+          一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 这一行有个more标记，不可见。
         &lt;/section&gt;
       &lt;/div&gt;
     &lt;/div&gt;
