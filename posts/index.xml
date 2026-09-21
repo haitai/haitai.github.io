@@ -26,7 +26,7 @@
 &lt;/div&gt;&lt;p&gt;测试文章显示：&lt;/p&gt;
 
 &lt;div class=&#34;post-preview&#34;&gt;
-  &lt;a target=&#34;_blank&#34; href=&#34;https://b.huhaitai.com/posts/hello-world/&#34; class=&#34;post-preview-a&#34;&gt;
+  &lt;a href=&#34;https://b.huhaitai.com/posts/hello-world/&#34; class=&#34;post-preview-a&#34;&gt;
     &lt;div class=&#34;post-preview-meta&#34;&gt;
       &lt;div class=&#34;post-preview-middle&#34;&gt;
         &lt;span class=&#34;post-meta-img&#34;&gt;&lt;img src=&#34;https://b.huhaitai.com/favicon.png&#34; class=&#34;&#34;&gt;&lt;/span&gt;
