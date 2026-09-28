@@ -12,7 +12,7 @@
     </image>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 27 Sep 2026 22:19:15 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 09:52:23 +0800</lastBuildDate>
     <atom:link href="https://b.huhaitai.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>测试内链卡片
@@ -30,7 +30,7 @@
   &lt;a href=&#34;https://b.huhaitai.com/posts/hello-world/&#34; class=&#34;post-preview-a&#34;&gt;
     &lt;div class=&#34;post-preview-meta&#34;&gt;
       &lt;div class=&#34;post-preview-middle&#34;&gt;
-        &lt;span class=&#34;post-meta-img&#34;&gt;&lt;img src=&#34;https://b.huhaitai.com/favicon.png&#34; class=&#34;&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;post-meta-img&#34;&gt;&lt;img src=&#34;https://b.huhaitai.com/favicon.png&#34; class=&#34;no-lightbox&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;post-meta-title&#34;&gt;Hello World&lt;/span&gt;
         &lt;span class=&#34;post-meta-date&#34;&gt; · 2026年9月5日&lt;/span&gt;
         &lt;section style=&#34;max-height:105px;overflow:hidden;&#34; class=&#34;post-preview--excerpt&#34;&gt;
